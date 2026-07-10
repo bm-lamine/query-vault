@@ -1,14 +1,14 @@
-import {
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-  isRouteErrorResponse,
-} from "react-router"
+import "~/shared/app.css";
 
-import type { Route } from "./+types/root"
-import "./app.css"
+import {
+    Links,
+    Meta,
+    Outlet,
+    Scripts,
+    ScrollRestoration,
+    isRouteErrorResponse,
+} from "react-router";
+import type { Route } from "./+types/root";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
