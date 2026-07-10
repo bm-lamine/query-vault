@@ -1,4 +1,4 @@
-import "~/shared/app.css";
+import "~/assets/app.css";
 
 import {
     Links,
